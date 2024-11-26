@@ -1,0 +1,9 @@
+from .plotting_class.my_harmonic_plotter import harmonics_and_fourier_transform
+# from .model.collecetive_electrochem_class_with_dip import newtonRaphsonCapFaradaicDip
+# from .model.collecetive_electrochem_class_with_dip import wrappedNewtonCapFaradaicDip
+from .model.dispersion import dispersion_class
+from .plotting_class.peak_width_at_half_height_class import peak_width_at_half_height
+# from .model.collecetive_electrochem_class_with_dip_pinned_resistance import newtonRaphsonCapFaradaicDip
+# from .model.collecetive_electrochem_class_with_dip_pinned_resistance import wrappedNewtonCapFaradaicDip
+from .model.collecetive_electrochem_class_with_dip import newtonRaphsonCapFaradaicDip
+from .model.collecetive_electrochem_class_with_dip import wrappedNewtonCapFaradaicDip
